@@ -1,2 +1,2 @@
-# scroll
-给div增加滚动的jquery插件
+## Examples
+![Screenshot](https://github.com/sunnut/scroll/blob/master/images/ex.png?raw=true "scroll")

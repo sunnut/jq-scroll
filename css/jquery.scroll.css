@@ -1,0 +1,34 @@
+.scroll-base {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	float: left;
+	position: relative;
+}
+.scroll-detail {
+	width: 100%;
+	height: auto;
+	position: absolute;
+}
+.scroll-bar {
+	width: 10px;
+	height: 100%;
+	float: right;
+	position: relative;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	background: #777;
+}
+.scroll-bar .scroll-button {
+	width: 8px;
+	height: 8px;
+	margin: 1px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	background: url(../images/arrow.png) center center no-repeat #cbcbcb;
+}
+.scroll-bar .scroll-button-over { background-color: #dbdbdb; }
+.scroll-bar .scroll-button-down { background-color: #ffffff; }

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>jQuery滚动条插件</title>
+	<link type="text/css" rel="stylesheet" href="css/jquery.scroll.css" />
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="js/jquery.scroll.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			$("[scroll='custom']").scroll();
+		});
+	</script>
+<style type="text/css">
+* { margin: 0; padding: 0; }
+.whatever { width: 300px; height: 150px; margin: 10px; line-height: 24px; border: 1px solid #EEE; border-radius:5px; -moz-border-radius:5px; }
+.whatever dt { text-indent: 10px; }
+.whatever dd { text-indent: 20px; }
+</style>
+<title>无标题文档</title>
+</head>
+
+<body>
+<div class="whatever" scroll="custom">
+	<dl>
+		<dt>title1</dt>
+		<dd>
+			<p>line 1</p>
+			<p>line 2</p>
+			<p>line 3</p>
+			<p>line 4</p>
+			<p>line 5</p>
+			<p>line 6</p>
+			<p>line 7</p>
+			<p>line 8</p>
+		</dd>
+	</dl>
+	<dl>
+		<dt>title2</dt>
+		<dd>
+			<p>line 1</p>
+			<p>line 2</p>
+			<p>line 3</p>
+			<p>line 4</p>
+			<p>line 5</p>
+			<p>line 6</p>
+			<p>line 7</p>
+			<p>line 8</p>
+		</dd>
+	</dl>
+	<dl>
+		<dt>title3</dt>
+		<dd style="display:none;"></dd>
+	</dl>
+</div>
+</body>
+</html>
